@@ -1,0 +1,90 @@
+@import "fonts.css";
+
+body {
+  background-image: url("../img/fondouno.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+body * {
+  font-family: "Rokkitt";
+}
+
+button, a, input[type="submit"] {
+  background-color: #3DB7B7;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: larger;
+  padding: 5%;
+  text-decoration: none;
+}
+
+div.img {
+  float: left;
+  left: 320px;
+  position: relative;
+  top: 230px;
+}
+
+div.config {
+  background-color: #FB5B5A;
+  border-radius: 30px;
+  float: right;
+  margin: 16% 17% 0% 0%;
+  padding: 3%;
+  text-align: center;
+  width: 20%;
+}
+
+div.errores {
+  background-color: #FB5B5A;
+  border-radius: 30px;
+}
+
+input[type="text"], input[type="password"] {
+  background: none;
+  border: none;
+  border-bottom: 2px solid;
+  font-family: cursive;
+  width: 200px;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    background-color: #324E68;
+    background-image: none;
+  }
+
+  img {
+    position: relative;
+    right: 108%;
+  }
+
+  div.config {
+    bottom: 75%;
+    position: absolute;
+    right: 5%;
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  body {
+    background-color: #324E68;
+    background-image: none;
+  }
+
+  img {
+    right: 108%;
+    position: relative;
+  }
+
+  div.config {
+    bottom: 67%;
+    right: 2%;
+    position: absolute;
+    width: 250px;
+  }
+}

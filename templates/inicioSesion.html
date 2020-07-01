@@ -1,0 +1,25 @@
+<!--Cuerpo HTML para el inicio de sesión del usuario (alumno o profesor)-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="../statics/css/ingreso.css">
+    <link rel="icon" href="../statics/img/logo.jpg">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta charset="utf-8">
+    <title>CoyoExpresate: Iniciar Sesión</title>
+  </head>
+  <body>
+    <div id="datos">
+      <form action="../dynamics/php/inicioSesion.php" method="POST">
+        <h1>Inicio Sesion</h1>
+        <div class="informacion">
+          Número de cuenta o RFC o correo electrónico: <input type="text" name="id_usuario"><br><br><br>
+          Contraseña: <input type="password" name="contra"><br>
+        </div>
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+    <a href="registro.html">¿No estás registrado? Regístrate aquí</a>
+    <a href="administrador.html">Eres administrador? Inicia Sesión AQUI</a>
+  </body>
+</html>

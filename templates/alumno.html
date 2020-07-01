@@ -1,0 +1,16 @@
+<!--Cuerpo HTML para el registro de alumno-->
+<link rel="icon" href="../statics/img/logo.jpg">
+<form action="../dynamics/php/registro.php" method="POST">
+  <h1>Registro Alumno</h1>
+  <div class="datos">
+    Número de cuenta: <input type="text" name="ncuenta" pattern="^3(18|19|20)\d{6}" required title="Ingresa un número de cuenta válido (318..., 319..., 320...)"><br><br>
+    Fecha de nacimiento: <input type="date" name="fnacimi"><br><br>
+    CURP: <input type="text" name="curp" required><br><br>
+    Nombre(s): <input type="text" name="name" pattern="([A-ZÁÉÍÓÚÑ][a-záéíóúñ]*\s?){1,}" required title="El nombre(s) debe empezar en mayúscula y continuar en minúscula"><br><br>
+    Apellido paterno: <input type="text" name="apaterno" pattern="[A-ZÁÉÍÓÚÑ][a-záéíóúñ]*" required title="El Apellido debe empezar en mayúscula y terminar en minúscula"><br><br>
+    Apellido materno: <input type="text" name="amaterno" pattern="[A-ZÁÉÍÓÚÑ][a-záéíóúñ]*" required title="El Apellido debe empezar en mayúscula y terminar en minúscula"><br><br>
+    Correo electrónico: <input type="text" name="correoElec" pattern=".+@.+\..+" required title="Ingresa un correo válido"><br><br>
+    Contraseña: <input type="password" name="contra" pattern="(?=.*[A-Z])(?=.*[\.,!@#$&*])(?=.*[0-9])(?=.*[a-z]).{10,}" required title="La contraseña debe tener 10 caracteres de longitud, mayúsculas, minúsculas, números y caracteres especiales."><br><br>
+  </div>
+  <input type="submit" value="Enviar">
+</form>

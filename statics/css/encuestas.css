@@ -1,0 +1,74 @@
+@import "fonts.css";
+
+h1 {
+  display: none;
+  font-family: "Ruslan";
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  background-color: #3DB7B7;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-family: "Rokkitt";
+  font-size: larger;
+  margin: 58% 0% 0% 5%;
+  padding: 1%;
+  text-decoration: none;
+}
+
+div.encuestaExit, div.respuestaExit {
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    background-color: #324E68;
+  }
+
+  h1 {
+    display: block;
+    margin: 150px 0px 0px 100px;
+  }
+
+  img {
+    display: none;
+  }
+
+  a {
+    left: 120px;
+    position: relative;
+    top: 220px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  body {
+    background-color: #324E68;
+  }
+
+  h1 {
+    display: block;
+    margin: 150px 0px 0px 95px;
+  }
+
+  img {
+    display: none;
+  }
+
+  a {
+    left: 125px;
+    position: relative;
+    top: 220px;
+  }
+}

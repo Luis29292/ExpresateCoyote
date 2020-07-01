@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--- HTML encargado de desplegar los elementos necesarios para la creación de encuestas.-->
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="../statics/css/hacer.css">
+    <link rel="icon" href="../statics/img/logo.jpg">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta charset="utf-8">
+    <title>CoyoExpresate: Preguntas</title>
+  </head>
+  <body id="body">
+    <div class="pregunta-container">
+      <form action="index.html" method="post">
+        <h1>Encuesta</h1>
+        <div id="content-pregunta1" id="content">
+          <h1>Pregunta 1</h1>
+          <span id="P1"></span>
+          <label id="ingresar">Ingresa tu pregunta: </label><input type="text" name="txtPreg" id="preg"><br><br>
+          <div id="opciones"></div>
+          <label id="label">Opción 1: </label><input type="text" name="Opc1" id="input"> <button type="button" id="ag1">Agregar opcion a la pregunta</button><br><br>
+          <button type="button" name="nuevaOpcion" id="new">Nueva Opcion</button>
+          <button type="button" name="agregarPregunta" id="agregar">Agregar pregunta a la encuesta</button>
+        </div><br>
+        <button type="button" id="generar1">Nueva Pregunta</button>
+
+        <div id="content-pregunta2">
+          <h1>Pregunta 2</h1>
+          <span id="P2"></span>
+          <label id="ingresar2">Ingresa tu pregunta: </label><input type="text" name="txtPreg" id="preg2"><br><br>
+          <div id="opciones2"></div>
+          <label id="label2">Opción 1: </label><input type="text" name="Opc1" id="input2"> <button type="button" id="ag2">Agregar opcion a la pregunta</button><br><br>
+          <button type="button" name="nuevaOpcion" id="new2">Nueva Opcion</button>
+          <button type="button" name="agregarPregunta" id="agregar2">Agregar pregunta a la encuesta</button>
+        </div>
+        <br>
+        <button type="button" id="generar2">Nueva Pregunta</button>
+        <div id="content-pregunta3">
+          <h1>Pregunta 3</h1>
+          <span id="P3"></span>
+          <label id="ingresar3">Ingresa tu pregunta: </label><input type="text" name="txtPreg" id="preg3"><br><br>
+          <div id="opciones3"></div>
+          <label id="label3">Opción 1: </label><input type="text" name="Opc1" id="input3"> <button type="button" id="ag3">Agregar opcion a la pregunta</button><br><br>
+          <button type="button" name="nuevaOpcion" id="new3">Nueva Opcion</button>
+          <button type="button" name="agregarPregunta" id="agregar3">Agregar pregunta a la encuesta</button>
+        </div>
+        <br>
+        <button type="button" id="generar3">Nueva Pregunta</button>
+        <div id="content-pregunta4">
+          <h1>Pregunta 4</h1>
+          <span id="P4"></span>
+          <label id="ingresar4">Ingresa tu pregunta: </label><input type="text" name="txtPreg" id="preg4"><br><br>
+          <div id="opciones4"></div>
+          <label id="label4">Opción 1: </label><input type="text" name="Opc1" id="input4"> <button type="button" id="ag4">Agregar opcion a la pregunta</button><br><br>
+          <button type="button" name="nuevaOpcion" id="new4">Nueva Opcion</button>
+          <button type="button" name="agregarPregunta" id="agregar4">Agregar pregunta a la encuesta</button>
+        </div>
+        <br>
+        <button type="button" id="generar4">Nueva Pregunta</button>
+        <div id="content-pregunta5">
+          <h1>Pregunta 5</h1>
+          <span id="P5"></span>
+          <label id="ingresar5">Ingresa tu pregunta: </label><input type="text" name="txtPreg" id="preg5"><br><br>
+          <div id="opciones5">
+          </div>
+          <label id="label5">Opción 1: </label><input type="text" name="Opc1" id="input5"> <button type="button" id="ag5">Agregar opcion a la pregunta</button><br><br>
+          <button type="button" name="nuevaOpcion" id="new5">Nueva Opcion</button>
+          <button type="button" name="agregarPregunta" id="agregar5">Agregar pregunta a la encuesta</button>
+        </div>
+        <br>
+        <input type="button" id="finalizarEnc" name="hacerEnc" value="Finalizar encuesta">
+        <br>
+        <label id="labelCategoria">Categoría de la encuesta: </label><select  id="selectCategoria"></select>  <button type="button" id="agregarCat">Agregar categoria</button>
+        <br>
+        <br>
+        <label id="labelInfGen">Título de la Encuesta: </label><input type="text" id="infoGeneral">
+        <br>
+        <br>
+        <label id="labelDesc">Descripción de la Encuesta: </label><input type="text" id="descripcion">
+        <br>
+        <br>
+        <div id="selectU"></div>
+        <br>
+        <button type="button" id="enviarUsu">Agregar usuario</button>
+        <br>
+        <br>
+        <div id="cajaUsuarios"></div>
+        <input type="button" id="hacerEnc" name="hacerEnc" value="Hacer encuesta">
+      </form>
+    </div>
+    <a href='./principalEncuestas.html'>Regresar</a>
+  </body>
+  <script type="text/javascript" src="../libs/JQuery/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="../dynamics/js/hacer.js"></script>
+</html>

@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Ruslan";
+  src: url("../../libs/fonts/Ruslan/RuslanDisplay-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Amatic";
+  src: url("../../libs/fonts/Amatic/AmaticSC-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Rokkitt";
+  src: url("../../libs/fonts/Rokkitt/Rokkitt-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Zilla";
+  src: url("../../libs/fonts/Zilla/ZillaSlabHighlight-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../../libs/fonts/Raleway/Raleway-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  src: url("../../libs/fonts/Comfortaa/Comfortaa-SemiBold.ttf");
+}

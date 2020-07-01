@@ -1,0 +1,84 @@
+@import "fonts.css";
+
+body {
+  background-image: url("../img/fondouno.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  font-family: "Ruslan";
+  font-size: 50px;
+  text-align: center;
+}
+
+img {
+  border-radius: 30px;
+  width: 450px;
+}
+
+a {
+  background-color: #FB5B5A;
+  border-radius: 10px;
+  color: white;
+  display: inline-block;
+  font-family: "Rokkitt";
+  font-size: larger;
+  margin: 40% 0% 0% 0%;
+  padding: 24px 35px;
+  text-align: center;
+  text-decoration: none;
+  width: 89%;
+}
+
+div.logo {
+  float: left;
+  padding: 0% 0% 0% 20%;
+  width: 500px;
+}
+
+div.selecciona {
+  float: right;
+  padding: 5% 25% 0% 0%;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    background-color: #324E68;
+    background-image: none;
+  }
+  h1 {
+    margin-right: 20px;
+  }
+
+  img {
+    left: 5px;
+    position: relative;
+    width: 200px;
+  }
+
+  div.selecciona {
+    margin-right: 25px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  body {
+    background-color: #324E68;
+    background-image: none;
+  }
+  h1 {
+    margin-right: 5px;
+  }
+
+  img {
+    position: relative;
+    right: 23px;
+    width: 200px;
+  }
+
+  div.selecciona {
+    margin-right: 25px;
+  }
+}
